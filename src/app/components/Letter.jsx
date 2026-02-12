@@ -13,7 +13,7 @@ export default function Letter({ onClose }) {
                     ×
                 </button>
 
-                <h1 className="text-xl sm:text-2xl font-bold mb-4 animate-pulse">Mutlu 14 Şubat! 💌</h1>
+                <h1 className="text-xl sm:text-2xl font-bold mb-4 animate-pulse">Merhaba Elif ! 💌</h1>
                 <p className="mb-4 text-gray-700 text-sm sm:text-base">
                     Seni tanımak gerçekten çok keyifli. 🌸
                     Her sohbetimiz, paylaştığımız küçük anlar ve birbirimize attığımız mesajlar bana özel bir his veriyor. 💛
@@ -28,7 +28,7 @@ export default function Letter({ onClose }) {
                     onClick={() => window.open("https://wa.me/905XXXXXXXXX?text=Mutlu%2014%20Şubat!%20🌸", "_blank")}
                     className=" btn-heart  px-4 py-2 sm:px-6 sm:py-2.5 bg-pink-500 text-white rounded hover:bg-pink-600 transform transition-transform duration-300 hover:scale-105 text-sm sm:text-base"
                 >
-                    💖
+                   Seni seviyorum 💖
                 </button>
             </div>
         </div>
