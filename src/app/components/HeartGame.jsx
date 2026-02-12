@@ -43,34 +43,37 @@ export default function HeartGame({ onWin }) {
     }, [found, onWin])
 
     return (
-        <div className="game-card p-6 bg-white rounded-lg shadow-md text-center">
-            <div className="text-2xl font-bold mb-2">💖 Kalbimi Bul</div>
-            <div className="mb-2">{found}/3 kalp bulundu</div>
-            <div className="mb-4">❤️ Hak: {tries}</div>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-pink-200 p-4">
+            <div className="game-card p-6 bg-white rounded-lg shadow-md text-center w-full max-w-md">
+                <div className="text-2xl font-bold mb-2">💖 Kalbimi Bul</div>
+                <div className="mb-2">{found}/3 kalp bulundu</div>
+                <div className="mb-4">❤️ Hak: {tries}</div>
 
-            <div className="game-grid grid grid-cols-3 gap-4">
-                {boxes.map((b, i) => (
-                    <button
-                        key={i}
-                        className="game-box w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center text-2xl cursor-pointer"
-                        onClick={() => clickBox(i)}
-                    >
-                        {!b.open && "❓"}
-                        {b.open && b.type === "heart" && <span className="text-pink-500 animate-ping">💖</span>}
-                        {b.open && b.type === "gift" && "🎁"}
-                    </button>
-                ))}
+                <div className="game-grid grid grid-cols-3 gap-4 mb-6">
+                    {boxes.map((b, i) => (
+                        <button
+                            key={i}
+                            className="game-box w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center text-2xl cursor-pointer"
+                            onClick={() => clickBox(i)}
+                        >
+                            {!b.open && "❓"}
+                            {b.open && b.type === "heart" && <span className="text-pink-500 animate-ping">💖</span>}
+                            {b.open && b.type === "gift" && "🎁"}
+                        </button>
+                    ))}
+                </div>
+
+                {tries === 0 && (
+                    <div className="flex justify-center">
+                        <button
+                            onClick={initGame}
+                            className="px-8 py-4 bg-blue-500 text-white text-lg rounded-lg shadow-md hover:bg-blue-600 transform transition-transform duration-200 hover:scale-105 w-full sm:w-auto"
+                        >
+                            Tekrar Dene
+                        </button>
+                    </div>
+                )}
             </div>
-
-            {tries === 0 && (
-                <button
-                    onClick={initGame}
-                   
-                >
-                    Tekrar Dene
-                </button>
-            )}
-
         </div>
     )
 }
