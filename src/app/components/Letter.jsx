@@ -21,7 +21,6 @@ export default function Letter({ onClose }) {
                 </p>
                 <p className="mb-6 text-gray-700 text-sm sm:text-base">
                     Umarım okurken içini küçük bir mutluluk kaplar ve gününe biraz renk katar. 💖
-                    Belki bir gün bu keyifli sohbetleri yüz yüze de devam ettiririz ve o anlar daha da özel olur. ☕
                 </p>
 
                 <button
