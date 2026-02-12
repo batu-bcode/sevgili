@@ -67,7 +67,7 @@ export default function HeartGame({ onWin }) {
                     <div className="flex justify-center">
                         <button
                             onClick={initGame}
-                            className="px-8 py-4 bg-blue-500 text-white text-lg rounded-lg shadow-md hover:bg-blue-600 transform transition-transform duration-200 hover:scale-105 w-full sm:w-auto"
+                            className=" btn-heart px-8 py-4 bg-blue-500 text-white text-lg rounded-lg shadow-md hover:bg-blue-600 transform transition-transform duration-200 hover:scale-105 w-full sm:w-auto"
                         >
                             Tekrar Dene
                         </button>
