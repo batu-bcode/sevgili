@@ -64,8 +64,13 @@ export default function HeartGame({ onWin }) {
 
 {tries === 0 && (
     <button
-
+        onClick={initGame}
+        className="mt-10 px-6 py-3 sm:px-8 sm:py-4 bg-blue-500 text-white text-lg sm:text-xl rounded-lg shadow-md hover:bg-blue-600 transform transition-transform duration-200 hover:scale-105"
+    >
+        Tekrar Dene
+    </button>
 )}
+
         </div>
     )
 }
