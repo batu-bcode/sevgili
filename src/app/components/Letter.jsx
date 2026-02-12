@@ -28,7 +28,7 @@ export default function Letter({ onClose }) {
                     onClick={() => window.open("https://wa.me/905XXXXXXXXX?text=Mutlu%2014%20Şubat!%20🌸", "_blank")}
                     className=" btn-heart  px-4 py-2 sm:px-6 sm:py-2.5 bg-pink-500 text-white rounded hover:bg-pink-600 transform transition-transform duration-300 hover:scale-105 text-sm sm:text-base"
                 >
-                   Seni seviyorum 💖
+                  Mutlu ol 🌸
                 </button>
             </div>
         </div>
