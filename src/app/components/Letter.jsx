@@ -5,10 +5,10 @@ export default function Letter({ onClose }) {
     <div className="letterScreen flex items-center justify-center min-h-screen bg-pink-100 px-2">
       <div className="letterBox relative z-10 p-4 sm:p-6 bg-white rounded-lg shadow-lg text-center w-11/12 sm:max-w-md transform transition-all duration-700">
 
-        {/* Çarpı butonu sol üst */}
+        {/* Çarpı butonu sağ üst */}
         <button
           onClick={onClose}
-          className="absolute top-2 left-2 text-gray-400 hover:text-gray-600 text-lg sm:text-xl font-bold"
+          className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-lg sm:text-xl font-bold"
         >
           ×
         </button>
