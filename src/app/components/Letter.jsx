@@ -8,7 +8,7 @@ export default function Letter({ onClose }) {
         {/* Çarpı butonu */}
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-lg sm:text-xl font-bold"
+          className="absolute top-2 left-2 text-gray-400 hover:text-gray-600 text-lg sm:text-xl font-bold"
         >
           ×
         </button>
