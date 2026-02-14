@@ -15,12 +15,14 @@ export default function Letter({ onClose }) {
 
                 <h1 className="text-xl sm:text-2xl font-bold mb-4 animate-pulse">Merhaba Sevgilim ! 💌</h1>
                 <p className="mb-4 text-gray-700 text-sm sm:text-base">
-                    Seni tanımak gerçekten çok keyifli. 🌸
-                    Her sohbetimiz, paylaştığımız küçük anlar ve birbirimize attığımız mesajlar bana özel bir his veriyor. 💛
-                    Bu mesajı sadece gülümsemeni saklaman ve kendini iyi hissetmen için göndermek istedim.
+                    Bugün sevgililer günü ama benim için asıl anlamı, seni yeniden hayatımda hissedebilmek.
+                    3 yıldır aynı yolda yürüdük; bazen yorulduk, bazen uzaklaştık ama kalbimiz birbirinden hiç vazgeçmedi. 
+                    Şimdi yeniden yan yana olmak, bana her şeyin daha güzel olacağına dair umut veriyor.
                 </p>
                 <p className="mb-6 text-gray-700 text-sm sm:text-base">
-                    Umarım okurken içini küçük bir mutluluk kaplar ve gününe biraz renk katar. 💖
+                    Sensiz geçen zaman bana şunu öğretti: Benim en güzel yerim senin yanın. Bundan sonra birlikte daha güçlü, 
+                    ve daha sevgi dolu olacağımıza inanıyorum. 
+                    Çünkü biz, ne olursa olsun yeniden birbirini bulabilen iki kalbiz.
                 </p>
 
                 <button
