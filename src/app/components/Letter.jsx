@@ -13,7 +13,7 @@ export default function Letter({ onClose }) {
                     ×
                 </button>
 
-                <h1 className="text-xl sm:text-2xl font-bold mb-4 animate-pulse">Merhaba Elif ! 💌</h1>
+                <h1 className="text-xl sm:text-2xl font-bold mb-4 animate-pulse">Merhaba Sevgilim ! 💌</h1>
                 <p className="mb-4 text-gray-700 text-sm sm:text-base">
                     Seni tanımak gerçekten çok keyifli. 🌸
                     Her sohbetimiz, paylaştığımız küçük anlar ve birbirimize attığımız mesajlar bana özel bir his veriyor. 💛
