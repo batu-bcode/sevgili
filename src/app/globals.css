@@ -10,13 +10,6 @@ body {
   background-repeat: repeat;
   background-size: 200px 200px; /* kare boyutu */
 }
-.overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(255, 192, 203, 0.4);
-  pointer-events: none;
-  z-index: 1;
-}
 
 /* Ana kart */
 .game-card {
